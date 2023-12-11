@@ -1,0 +1,443 @@
+/* FONTE PRA TODO O SITE */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BARRA DE ROLAGEM DA DIREITA DO SITE */
+::-webkit-scrollbar {
+    width: 0vh;
+}
+
+body {
+    overflow: visible;
+    background-color: #d8d8d8
+}
+
+/* FIM DA BARRA DE ROLAGEM ----- COMEÇO DO CABEÇALHO 1 */
+
+.cabecalho {
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    background: #272727;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 146vh;
+}
+
+.formulario-botao-home {
+    position: relative;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.1);
+}
+
+#botao-home {
+    position: relative;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 1.8vh;
+    font-style: normal;
+    background-color: #727272;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#botao-home:hover {
+    transform: scale(1.05);
+
+}
+
+.formulario-botao-cursos {
+    position: relative;
+    left: 5vh;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.1);
+}
+
+#botao-cursos {
+    position: relative;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    color: #727272;
+    text-align: center;
+    font-size: 1.8vh;
+    font-style: normal;
+    background-color: #d8d8d8;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#botao-cursos:hover {
+    transform: scale(1.05);
+
+}
+
+.formulario-botao-noticias {
+    position: relative;
+    left: 10vh;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.1);
+}
+
+#botao-noticias {
+    position: relative;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 1.8vh;
+    font-style: normal;
+    background-color: #727272;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#botao-noticias:hover {
+    transform: scale(1.05);
+
+}
+
+/* FIM DO CABECALHO COMECO DO CONTEUDO */
+/* INTEGRADO */
+.titulo-integrado {
+    z-index: 9999;
+    top: 5vh;
+    position: relative;
+    height: 2vh;
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d8d8d8;
+    letter-spacing: 0.2vh;
+}
+
+.integrado {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo-integrado {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-margem {
+    position: relative;
+    padding: 3vh;
+    width: 50vh;
+    height: 32vh;
+    border-radius: 2vh;
+    border: transparent;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+#agroindustria {
+    position: relative;
+    width: 50vh;
+    height: 32vh;
+    border-radius: 2vh;
+    border: transparent;
+    outline: none;
+    background-image: url(imagens/pagina-cursos/integrado/agroindustria.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#agroindustria:hover {
+    transform: scale(1.05);
+}
+
+#agropecuaria {
+    position: relative;
+    width: 50vh;
+    height: 32vh;
+    border-radius: 2vh;
+    border: transparent;
+    outline: none;
+    background-image: url(imagens/pagina-cursos/integrado/agropecuaria.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#agropecuaria:hover {
+    transform: scale(1.05);
+}
+
+#informatica {
+    position: relative;
+    width: 50vh;
+    height: 32vh;
+    border-radius: 2vh;
+    border: transparent;
+    outline: none;
+    background-image: url(imagens/pagina-cursos/integrado/informatica.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+
+}
+
+#informatica:hover {
+    transform: scale(1.05);
+}
+
+/* FIM DO INTEGRADO COMECO DO SUBSEQUENTE */
+
+.titulo-subsequente {
+    z-index: 9999;
+    top: 7vh;
+    position: relative;
+    width: auto;
+    height: 2vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d8d8d8;
+    letter-spacing: 0.2vh;
+}
+
+.subsequente {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo-subsequente {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-margem-sub {
+    position: relative;
+    padding: 3vh;
+    width: 40vh;
+    height: 25.6vh;
+    border-radius: 2vh;
+    border: transparent;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+#agroindustriasub {
+    position: relative;
+    width: 40vh;
+    height: 25.6vh;
+    border-radius: 2vh;
+    border: transparent;
+    outline: none;
+    background-image: url(imagens/pagina-cursos/subsequente/agroindustria.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#agroindustriasub:hover {
+    transform: scale(1.05);
+}
+
+#agropecuariasub {
+    position: relative;
+    width: 40vh;
+    height: 25.6vh;
+    border-radius: 2vh;
+    border: transparent;
+    outline: none;
+    background-image: url(imagens/pagina-cursos/subsequente/agropecuaria.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#agropecuariasub:hover {
+    transform: scale(1.05);
+}
+
+#informaticasub {
+    position: relative;
+    width: 40vh;
+    height: 25.6vh;
+    border-radius: 2vh;
+    border: transparent;
+    outline: none;
+    background-image: url(imagens/pagina-cursos/subsequente/informatica.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+
+}
+
+#informaticasub:hover {
+    transform: scale(1.05);
+}
+
+#enfermagemsub {
+    position: relative;
+    width: 40vh;
+    height: 25.6vh;
+    border-radius: 2vh;
+    border: transparent;
+    outline: none;
+    background-image: url(imagens/pagina-cursos/subsequente/enfermagem.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+
+}
+
+#enfermagemsub:hover {
+    transform: scale(1.05);
+}
+
+/* FIM DO SUBSEQUENTE COMECO DO SUPERIOR */
+.titulo-superior {
+    z-index: 9999;
+    top: 5.5vh;
+    position: relative;
+    width: auto;
+    height: 2vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d8d8d8;
+    letter-spacing: 0.2vh;
+}
+
+
+.superior {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo-superior {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-margem-sup {
+    position: relative;
+    padding: 3vh;
+    width: 50vh;
+    height: 32vh;
+    border-radius: 2vh;
+    border: transparent;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+#musicasup {
+    position: relative;
+    width: 50vh;
+    height: 32vh;
+    border-radius: 2vh;
+    border: transparent;
+    outline: none;
+    background-image: url(imagens/pagina-cursos/superior/musica.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#musicasup:hover {
+    transform: scale(1.05);
+}
+
+#engenhariasup {
+    position: relative;
+    width: 50vh;
+    height: 32vh;
+    border-radius: 2vh;
+    border: transparent;
+    outline: none;
+    background-image: url(imagens/pagina-cursos/superior/engenharia.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#engenhariasup:hover {
+    transform: scale(1.05);
+}

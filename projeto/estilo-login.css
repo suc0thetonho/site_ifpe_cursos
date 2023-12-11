@@ -1,0 +1,202 @@
+/* FONTE PRA TODO O SITE */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BARRA DE ROLAGEM DA DIREITA DO SITE */
+::-webkit-scrollbar {
+    width: 0vh;
+}
+
+/* FIM DA BARRA DE ROLAGEM ----- COMEÇO DO CABEÇALHO 1 */
+
+.cabecalho {
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    background: #272727;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 146vh;
+}
+
+.formulario-botao-home {
+    position: relative;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.1);
+}
+
+#botao-home {
+    position: relative;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 1.8vh;
+    font-style: normal;
+    background-color: #727272;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#botao-home:hover {
+    transform: scale(1.05);
+
+}
+
+.formulario-botao-cursos {
+    position: relative;
+    left: 5vh;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.1);
+}
+
+#botao-cursos {
+    position: relative;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 1.8vh;
+    font-style: normal;
+    background-color: #727272;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#botao-cursos:hover {
+    transform: scale(1.05);
+
+}
+
+.formulario-botao-noticias {
+    position: relative;
+    left: 10vh;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: 0vh 0vh 3vh 0vh rgba(0, 0, 0, 0.1);
+}
+
+#botao-noticias {
+    position: relative;
+    width: 13vh;
+    height: 5vh;
+    border-radius: 10px;
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 1.8vh;
+    font-style: normal;
+    background-color: #727272;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#botao-noticias:hover {
+    transform: scale(1.05);
+
+}
+
+/* FIM DO CABEÇALHO 1 ----- COMEÇO DO CABEÇALHO 2 */
+
+.cabecalho2 {
+    position: relative;
+    width: 100%;
+    height: 86.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/pagina-login/background.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FIM DO CABEÇALHO 2 ----- COMEÇO DO login */
+
+.caixa-de-login {
+    width: 120vh;
+    height: 70vh;
+    position: relative;
+    background: #fff;
+    border-radius: 3vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.caixa-de-login .esquerda {
+    width: 50%;
+    height: 100%;
+}
+
+.caixa-de-login .direita {
+    width: 50%;
+    height: 100%
+}
+
+.esquerda .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+
+.esquerda h3 {
+    text-align: center;
+}
+
+.esquerda input {
+    border: none;
+    width: 80%;
+    margin: 15px 0px;
+    border-bottom: 1px solid #4f30677d;
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.botao-cadastrar {
+    font-size: 1.5vh;
+    font-weight: 600;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 1vh;
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    background: #727272;
+    color: #fff;
+}
+
+.direita {
+    background: url(imagens/pagina-login/vetor.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
